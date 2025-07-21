@@ -1,0 +1,19 @@
+{
+  "name": "https-server",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "commonjs",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.0",
+    "zod": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.0",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  }
+}
